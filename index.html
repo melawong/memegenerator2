@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Meme Maker!</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>The Meme Maker!</h1>
+            <h2>where your meme dreams finally come true</h2>
+        </header>
+
+        <section class="form">
+            <form action="#" id="form">
+                <div>
+                    <label for="link">image link</label>
+                    <input type="text" name="URL" id="link" placeholder="enter the link to your image!" required>
+                </div>
+                <div>
+                    <label for="top_text">top text</label>
+                    <input type="text" name="top_text" id="top_text" placeholder="enter text for the top of your meme!">
+                </div>
+                <div>
+                    <label for="bottom_text">bottom text</label>
+                    <input type="text" name="bottom_text" id="bottom_text" placeholder="enter text for the bottom of your meme!">
+                </div>
+                <div>
+                    <button type="submit" id="button">make my meme!</button>
+                </div>
+            </form>
+        </section>
+
+        <main id="main">
+            <div class="meme_container">
+                <div class="meme_body">
+                    <p class="top_text">making memes</p>
+                    <p class="close">CLEAR</p>
+                    <p class="bottom_text">fulfills my dreams!</p>
+                </div>
+            </div>  
+
+        </main>
+
+    </div>
+    <script src="meme.js"></script>
+</body>
+
+</html>
